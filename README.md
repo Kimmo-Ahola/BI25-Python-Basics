@@ -43,13 +43,13 @@ Slå av Copilot i VSCode för dessa uppgifter. Många av dessa övningar kräver
 
 ## Variabler, Typer & Print
 
-Skapa ex_1.py för dessa uppgifter.
+Skapa ex_variables.py för dessa uppgifter.
 
 1. Skapa variablerna name och age och skriv ut till konsolen: "Hej, jag heter [name] och är [age] år gammal".
 2. Konvertera strängen "1500" till ett heltal och addera 500.
 3. Skapa en variabel med värdet 3.14159. Skriv ut den avrundad till två decimaler.
 5. Skapa en variabel för price och quantity. Beräkna total och skriv ut med f-string.
-6. Kontrollera vilken datatyp variabeln x = "10".
+6. Kontrollera vilken datatyp variabeln x = "10" är. Googla på check data type Python.
 7. Skapa en variabel is_active = True. Skriv ut den som en sträng.
 8. Slå ihop två strängar: "Business" och "Intelligence" med ett mellanslag mellan.
 9. Vad händer om du försöker att summera en sträng med en siffra och kör ditt script? Vad står det i terminalen?
@@ -57,6 +57,8 @@ Skapa ex_1.py för dessa uppgifter.
 ---
 
 ## Jämförelser
+
+Skapa ex_comparisons.py för dessa uppgifter.
 
 1. Jag anser att 0.1 + 0.2 = 0.3 men vad tycker Python om detta? Testa att skriva ut till konsolen och ta reda på varför det är så.
 2. För att jämföra om två tal är lika använder vi oss av ==. Detta fungerar utan problem för heltal men ta reda på hur man måste göra när det kommer till flyttal.
@@ -101,7 +103,7 @@ print("a is b", a is b) # this prints what?
 
 ## Logik (If/Elif/Else)
 
-Skapa ex_2.py för dessa uppgifter.
+Skapa ex_if_else.py för dessa uppgifter.
 
 1. Kolla om ett tal är positivt, negativt eller noll och skriv ut till konsolen.
 3. Skapa en "Rabatt-kalkylator" som kollar en variabel: Om variabeln > 1000 kr, dra av 10% rabatt.
@@ -115,7 +117,7 @@ Skapa ex_2.py för dessa uppgifter.
 
 ## Listor
 
-Skapa ex_3.py för dessa uppgifter.
+Skapa ex_lists.py för dessa uppgifter.
 
 1. Skapa en lista med fem städer. Skriv ut den tredje staden i listan.
 2. Lägg till en stad i slutet av din lista med och ta bort den första staden från listan.
@@ -129,7 +131,7 @@ Skapa ex_3.py för dessa uppgifter.
 
 ## Loopar
 
-Skapa ex_4.py för dessa uppgifter.
+Skapa ex_loops.py för dessa uppgifter.
 
 1. Ta reda på vilka loop-typer som är vanligast i Python.
 1. Skriv ut talen 1 till 10 med en lämplig loop.
@@ -155,7 +157,7 @@ Kör sedan koden och ta reda på varför den skrev ut resultatet på det sättet
 
 ## Funktioner & Scope
 
-Skapa ex_5.py för dessa uppgifter.
+Skapa ex_func_scope.py för dessa uppgifter.
 
 1. Skriv en funktion say_hi() som skriver ut "Hej!".
 2. Skriv en funktion som tar base och height och returnerar arean på en triangel.
