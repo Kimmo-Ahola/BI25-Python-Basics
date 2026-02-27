@@ -224,3 +224,16 @@ Fundera på:
 2. Hur ska vi dela upp en sträng till ett antal ord? "Jag heter Kimmo" -> Ska resultera i tre ord. Hur gör vi detta och hur kan vi spara dessa tre ord på ett smidigt sätt?
 3. Hur kan jag kolla om en sträng innehåller ett specifikt tecken, till exempel ett @, och sedan sparar detta tecken och ingenting annat till en variabel?
 4. Hur kan jag kolla om en sträng innehåller ett mer avancerat mönster, till exempel (ett till tre siffror)-(en siffra)-(@ eller , eller .)
+
+```
+Giltiga:
+123-1-@
+1-1-@
+12-1-.
+
+Ogiltiga:
+1234-1-@ <- Får inte ha fler än 3 siffror i första delen
+123-1-@, <- Får inte sluta med @ och , utan bara en av dem.
+```
+
+Vi måste hitta på något nytt nästa vecka för att kunna extrahera mönster från textsträngar.
