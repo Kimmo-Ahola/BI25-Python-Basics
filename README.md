@@ -39,66 +39,143 @@ Eftersom att ni tidigare har kodat en del i TSQL är ni redan bekanta med vissa 
 
 # Övningsuppgifter
 
+Slå av Copilot i VSCode för dessa uppgifter. Många av dessa övningar kräver google. Googla först, ChatGPT sist.
 
 ## Variabler, Typer & Print
 
-1. Skapa variabeln name och age och skriv ut: "Hej, jag heter [name] och är [age] år".
+Skapa ex_1.py för dessa uppgifter.
+
+1. Skapa variablerna name och age och skriv ut till konsolen: "Hej, jag heter [name] och är [age] år gammal".
 2. Konvertera strängen "1500" till ett heltal och addera 500.
-3. Skapa en variabel med värdet 3.14159. Skriv ut den avrundad till två decimaler (tips: round()).
-4. Ta emot ett namn via input() och skriv ut det i bara stora bokstäver.
+3. Skapa en variabel med värdet 3.14159. Skriv ut den avrundad till två decimaler.
 5. Skapa en variabel för price och quantity. Beräkna total och skriv ut med f-string.
-6. Kontrollera vilken datatyp variabeln x = "10" har med type().
+6. Kontrollera vilken datatyp variabeln x = "10".
 7. Skapa en variabel is_active = True. Skriv ut den som en sträng.
 8. Slå ihop två strängar: "Business" och "Intelligence" med ett mellanslag mellan.
+9. Vad händer om du försöker att summera en sträng med en siffra och kör ditt script? Vad står det i terminalen?
 
 ---
 
 ## Logik (If/Elif/Else)
 
-1. Kolla om ett tal är positivt, negativt eller noll.
-2. Skriv en if-sats som kollar om en användare är "admin" för att få logga in.
-3. Skapa en "Rabatt-kalkylator": Om köpet > 1000 kr, ge 10% rabatt.
-4. Kolla om ett tal är jämnt eller udda (tips: % 2).
-5. Skapa en betygsättare: 0-49 (F), 50-74 (G), 75-100 (VG).
+Skapa ex_2.py för dessa uppgifter.
+
+1. Kolla om ett tal är positivt, negativt eller noll och skriv ut till konsolen.
+3. Skapa en "Rabatt-kalkylator" som kollar en variabel: Om variabeln > 1000 kr, dra av 10% rabatt.
+4. Kolla om ett tal är jämnt eller udda.
+5. Skapa en betygsättare som skriver ut bokstaven inom parentes till konsolen: 0-49 (F), 50-74 (G), 75-100 (VG). Vad händer med tal under 0 och tal större än 100?
 6. Kolla om en sträng innehåller mer än 10 tecken.
 7. Skriv en logisk sats som kollar om ett tal är mellan 10 OCH 20.
-8. Kolla om en variabel x är av typen int.
+8. Kolla om en variabel x är av typen int. Skriv ut True till konsolen om den är det.
 
 ---
 
 ## Listor
 
-1. Skapa en lista med fem städer. Skriv ut den tredje staden.
-2. Lägg till en stad i slutet av din lista med .append().
+Skapa ex_3.py för dessa uppgifter.
+
+1. Skapa en lista med fem städer. Skriv ut den tredje staden i listan.
+2. Lägg till en stad i slutet av din lista med och ta bort den första staden från listan.
 3. Byt ut den första staden i listan mot "Stockholm".
-4. Ta bort den sista staden i listan med .pop().
-5. Skapa en lista med siffror och skriv ut listans längd (len()).
-6. Sortera en lista med osorterade tal.
-7. Skapa en lista colors. Kolla om "Blue" finns i listan (använd in).
-8. Skapa en lista av listor (en enkel matris) och hämta ett värde ur den inre listan.
+4. Ta bort den sista staden i listan med.
+5. Skapa en lista med siffror och skriv ut listans längd.
+7. Skapa en lista colors som du fyller med färger. Kolla om "Blue" finns i listan.
+8. Skapa en lista av listor och försök att hämta ett värde ur en nästlad lista.
 
 ---
 
 ## Loopar
 
-1. Skriv ut talen 1 till 10 med en for-loop.
-2. Loopa igenom en lista med namn och skriv ut "Välkommen [namn]".
-3. Summera alla tal i en lista med hjälp av en loop.
+Skapa ex_4.py för dessa uppgifter.
+
+1. Ta reda på vilka loop-typer som är vanligast i Python.
+1. Skriv ut talen 1 till 10 med en lämplig loop.
+2. Loopa igenom en lista med namn och skriv ut "Välkommen [namn]" om namnet finns i listan. Om namnet förekommer flera gånger ska det bara skrivas ut en gång.
+3. Summera alla tal i en lista med hjälp av en loop. Testa sedan att lägga till en sträng i listan och att summera igen. Vad händer?
 4. Skapa en loop som bara skriver ut jämna tal mellan 1 och 20.
-5. Avbryt en loop med break när den når talet 7.
-6. Använd continue för att hoppa över siffran 5 i en loop 1-10.
+5. Avbryt en loop när den når talet 7.
+6. Skriv kod som hoppar över siffran 5 i en loop 1-10.
 7. Skapa en lista med priser. Loopa och skapa en ny lista där varje pris har fått 25% moms pålagt.
-8. Skapa en "Nedräknare" som räknar från 10 till 1 (tips: range(10, 0, -1)).
+8. Skapa en "Nedräknare" som räknar från 10 till 1.
+9. Googla på om det finns något sätt att göra en lista i omvänd ordning.
+10. Läs följande kod och fundera på vad som kommer att skrivas ut:
+```Python
+x = "My Name is"
+
+for y in x:
+    print(y)
+```
+
+Kör sedan koden och ta reda på varför den skrev ut resultatet på det sättet.
 
 ---
 
 ## Funktioner & Scope
 
+Skapa ex_5.py för dessa uppgifter.
+
 1. Skriv en funktion say_hi() som skriver ut "Hej!".
 2. Skriv en funktion som tar base och height och returnerar arean på en triangel.
 3. Skapa en funktion som tar en lista och returnerar det största talet.
-4. Scope-test: Skapa en global variabel x. Försök ändra den inuti en funktion utan global och se vad som händer.
 5. Skriv en funktion som kollar om en e-postadress innehåller ett "@".
-6. Skapa en funktion med ett default-argument (t.ex. currency="SEK").
 7. Skriv en funktion som tar en sträng och returnerar den baklänges.
 8. Skapa en funktion calculate_tax som anropar en annan funktion get_tax_rate internt.
+
+Scope i Python kan vara lurigt. Testa dessa exempel, ett i taget, och se vad ni får utskriver till konsolen.
+```Python
+x = "Kimmo"
+
+if True:
+    x = "Orange"
+
+print(x)
+```
+
+```Python
+x = "Kimmo"
+
+def test():
+    x = "Orange"
+
+print(x)
+```
+
+```Python
+x = "Kimmo"
+
+def test():
+    y = "Orange"
+    return y
+
+y = test()
+x = y
+print(x)
+```
+
+```Python
+def test():
+    x = "Kimmo"
+    return "Orange"
+
+print(test())
+print(x)
+```
+
+---
+
+## Att googla på
+
+I SQL är ni vana vid kolumnnamn men i Python använder vi ofta Dictionaries för att mappa data.
+1. Vad är dictionaries?
+2. Hur fungerar de rent konceptuellt?
+3. Hur sparas en dictionary i ett Python-script?
+4. Vad är skillnaden på en dictionary och JSON?
+
+---
+
+I SQL använder vi ofta oss av like '%something%' eller '__ab%' för att hitta mönster i strängar. Hur ska vi göra om vi ska söka på mer avancerade mönster?
+Fundera på:
+1. Hur ska vi till exempel ta bort whitespace (mellanslag) i början och i slutet av strängar?
+2. Hur ska vi dela upp en sträng till ett antal ord? "Jag heter Kimmo" -> Ska resultera i tre ord. Hur gör vi detta och hur kan vi spara dessa tre ord på ett smidigt sätt?
+3. Hur kan jag kolla om en sträng innehåller ett specifikt tecken, till exempel ett @?
+4. Hur kan jag kolla om en sträng innehåller ett mer avancerat mönster, till exempel (ett till tre siffror)-(en siffra)-(@ eller , eller .)
