@@ -56,6 +56,49 @@ Skapa ex_1.py för dessa uppgifter.
 
 ---
 
+## Jämförelser
+
+1. Jag anser att 0.1 + 0.2 = 0.3 men vad tycker Python om detta? Testa att skriva ut till konsolen och ta reda på varför det är så.
+2. För att jämföra om två tal är lika använder vi oss av ==. Detta fungerar utan problem för heltal men ta reda på hur man måste göra när det kommer till flyttal.
+
+3. Fundera på koden nedan och vad den kommer att skriva ut innan du kör den. Hade du rätt?
+
+```Python
+
+if 5 > 4:
+    print("Five is larger than 4")
+
+```
+
+Fundera på koden nedan och vad den kommer att skriva ut innan du kör den. Varför är det så?
+
+```
+if 5:
+    print("Five is?")
+else:
+    print("This should be printed")
+
+if "":
+    print("Empty string is?")
+else:
+    print("This should not be printed?")
+```
+
+4. Fundera på denna kod och varför den beter sig som den gör
+
+```Python
+x = "A"
+y = "A"
+a = [1, 2, 3] # list of 1, 2 and 3
+b = [1, 2, 3] # list of 1, 2 and 3
+
+print("a == b", a == b) # this prints what?
+print("x is y", x is y) # this prints what?
+print("a is b", a is b) # this prints what?
+```
+
+---
+
 ## Logik (If/Elif/Else)
 
 Skapa ex_2.py för dessa uppgifter.
