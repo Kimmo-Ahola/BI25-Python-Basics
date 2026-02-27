@@ -177,5 +177,5 @@ I SQL använder vi ofta oss av like '%something%' eller '__ab%' för att hitta m
 Fundera på:
 1. Hur ska vi till exempel ta bort whitespace (mellanslag) i början och i slutet av strängar?
 2. Hur ska vi dela upp en sträng till ett antal ord? "Jag heter Kimmo" -> Ska resultera i tre ord. Hur gör vi detta och hur kan vi spara dessa tre ord på ett smidigt sätt?
-3. Hur kan jag kolla om en sträng innehåller ett specifikt tecken, till exempel ett @?
+3. Hur kan jag kolla om en sträng innehåller ett specifikt tecken, till exempel ett @, och sedan sparar detta tecken och ingenting annat till en variabel?
 4. Hur kan jag kolla om en sträng innehåller ett mer avancerat mönster, till exempel (ett till tre siffror)-(en siffra)-(@ eller , eller .)
